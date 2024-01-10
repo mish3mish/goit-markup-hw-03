@@ -145,7 +145,7 @@ img {
 .hero-container {
   background-color: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -161,7 +161,7 @@ img {
   margin-bottom: 48px;
 }
 .hero-btn {
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   color: #fff;
   background-color: #4d5ae5;
   font-family: inherit;
@@ -171,19 +171,25 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-  /* display: block;
+  display: block;
   margin-right: auto;
-  margin-left: auto; */
+  margin-left: auto;
 }
 
-.hero-btn-flex {
+/* .hero-btn-flex {
   display: flex;
   justify-content: center;
-}
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+} */
 
 .hero-btn:hover,
 .hero-btn:focus {
