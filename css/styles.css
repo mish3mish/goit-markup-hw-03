@@ -228,7 +228,6 @@ img {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-  align-items: center;
 }
 
 .team-title {
@@ -284,6 +283,7 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /************** PORTFOLIO **************/
