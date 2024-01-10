@@ -253,6 +253,7 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   /* width: 264px; */
   width: calc((100% - 72px) / 4);
+  text-align: center;
 }
 
 .team-img {
@@ -283,7 +284,6 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 /************** PORTFOLIO **************/
